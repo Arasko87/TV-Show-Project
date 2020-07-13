@@ -1,17 +1,20 @@
 #root {
-  
   background-color: grey;
+  padding: 50px;
+}
 
+#myInput{
+	margin: 10px;
+	
 }
 .nameDiv{
 	
-		display: flex;
-		background-color: grey;
-		justify-content: space-around;
-		flex-wrap: wrap;
+	display: flex;
+	background-color: sandybrown;
+	justify-content: space-around;
+	flex-wrap: wrap;
 		
 	  }
-
 
 .box{
 	display: flex;
@@ -20,10 +23,8 @@
 	margin-top: 14px;
 	border: 3px solid rgb(22, 77, 100);
 	border-radius: 9px;
-	
 	padding: 7px;
-   
-	text-align: center;
+   	text-align: center;
 	max-width: 250px;
 	height: 420px;
    	background-color:thistle;
